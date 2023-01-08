@@ -4,18 +4,20 @@
     box-sizing: border-box;
     font-family: 'Work Sans';
 }
+
 /* banner style */
-.banner-area{
+.banner-area {
     width: 100%;
     height: 100vh;
     background: url(/images/banner/banner1.png);
     background-size: cover;
 }
-.content-area{
+
+.content-area {
     height: 100%;
     display: flex;
-    justify-content:right;
-    align-items:center;
+    justify-content: right;
+    align-items: center;
     text-align: right;
     margin-right: 200px;
 }
@@ -26,6 +28,7 @@
     color: #151414;
     margin-bottom: 24px;
 }
+
 .banner-p {
     color: #444343;
     font-size: 16px;
@@ -45,3 +48,137 @@
 }
 
 /* body style */
+
+/* failure section style */
+.fail-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 130px 100px;
+}
+
+.fail-pic {}
+
+.fail-title {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 24px;
+    color: #151414;
+}
+
+.fail-p {
+    color: #444343;
+    margin-bottom: 16px;
+
+}
+
+.fail-list {
+    color: #444343;
+}
+
+.fail-list ul {
+    list-style: square;
+}
+
+.fail-list ul li {
+    margin-bottom: 8px;
+}
+
+/* plan section style */
+
+.plan-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    text-align: center;
+}
+
+.plans {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plan-name {
+    margin: 50px 50px;
+    text-align: center;
+}
+
+/* call now section */
+.photo.area {
+    text-align: center;
+
+
+}
+
+.photo-c-area {
+    padding: 60px 600px 150px 60px;
+    background-size: calc(1140px 300px);
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(/images/watch.png);
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    margin: 130px 230px;
+}
+
+.p-c-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.btn-2 {
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 20px;
+    border: 0;
+    padding: 20px 25px;
+    height: 64px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+/* footer style */
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #151414;
+    ;
+}
+
+.future {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+
+.f-p {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.footer-left{
+    text-align: left;
+    margin: 130px 230px;
+}
+
+.footer-right{
+    text-align: left
+    margin: 130px 230px;
+}
+
+.subs{
+    color: white;
+    margin-bottom: 30px;
+}
+
+.mail{
+    border: 16px solid white;
+    color: white;
+    border-bottom: 30px;
+
+}

@@ -139,6 +139,17 @@
     margin-top: 10px;
 }
 
+/* suggestions style */
+.sug{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 130px 200px;
+}
+#sug-in{
+    padding: 100px 200px;
+    margin-bottom: 15px;
+}
 /* footer style */
 .footer{
     display: flex;
